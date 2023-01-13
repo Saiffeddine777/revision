@@ -9,4 +9,3 @@ function class1(name, age, gender,presence ,absence,average){
     }
 } 
 
-

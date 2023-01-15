@@ -110,3 +110,17 @@ var library = [
         readingStatus: false
     }];
     
+
+    var student = {
+        name : "David Rayy",
+        sclass : "VI",
+        rollno : 12 
+    }
+
+    function noRolldelete(object){
+        delete object.rollno
+    }
+
+    function length(object){
+        return Object.keys(object).length
+    }
